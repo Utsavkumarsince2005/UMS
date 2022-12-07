@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    list-style: none;
+
+}
+#logo-div
+{
+    width:100%;
+    min-height:50px;
+   background-color:whitesmoke;
+    padding: left 0%;
+    line-height:50px;
+    margin-bottom:10px;
+}
+#nav-div{
+    width: auto;
+    min-height: 50px;
+    background-color:black;
+    text-align:center;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+#nav-div li{
+    float:left;
+    list-style: none;
+    margin: 13px 20px;
+    
+
+}
+#nav-div li a{
+    padding: 0 px;
+    text-decoration:none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Search{
+    color: aliceblue;
+    padding:12px 75px;
+    float:right;
+}
+.Search input{
+    border:2px solid black;
+    border-radius:8px;
+    padding: 3px 17px;
+    width: 160px;
+}
+
+#main-div{
+    width:1200;
+    
+    background-color:white;
+    margin-bottom:10px;
+}
+
+#side-div{
+    width:20%;
+    min-height:400px;
+    background-color:rgb(5,68,104);
+    float:left;
+}
+#main-div #side-div .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+#main-div #side-div .profile img{
+    display:block;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin:0 auto;
+    padding:2px;
+}
+#main-div #side-div .profile h3{
+    color:whitesmoke;
+    margin:10px 0 5px;
+}
+#main-div #side-div .profile p{
+    color:rgb(206,204,253);
+    font-size: 14px;
+}
+#main-div #side-div ul li a{
+    list-style: none;
+    display:block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241,237,253);
+    font-size: 16px;
+    position:relative; 
+    text-decoration: none;
+}
+
+#main-div #side-div ul li a:hover,
+#main-div #side-div ul li a.active{
+     color:#0c7db1;
+     background:yellow;
+     border-right: 2 px solid rgb(5,68,104)
+} 
+#body-div{
+    width:75%;
+    min-height:400px;
+    background-color:whitesmoke;
+    float:right;
+    color: black;
+
+
+}
+
+#body-div table tr{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    
+    
+}
+#body-div table tr:hover,
+#body-div table tr.actve{
+    color:#0c7db1;
+    background:#34666F;
+    border-right: 2 px solid rgb(5,68,104);
+    color: black;
+}
+
+
+
+.tt table tr{
+   
+    text-align: center;
+    width:100%;
+}
+
+
+.clearfix::after
+{
+content:"";
+display:block;
+clear:both;
+}
+#footer-div{
+    width: auto;
+    min-height:50px;
+    background-color:#4d6f7f;
+    line-height:50px;
+    text-align: center;
+    line-height:50px;
+    color: whitesmoke;
+}
